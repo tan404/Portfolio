@@ -152,7 +152,7 @@ header.sticky ul li a
 }
 .about 
 {
-    height: 700px;
+    height: 500px;
 }
 .Projects .content
 {
@@ -160,7 +160,7 @@ header.sticky ul li a
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.Projects .content .workBx
+.Projects .content .workBx l
 {
     width:50%;
     padding: 20px;
@@ -224,15 +224,18 @@ header.sticky ul li a
 .contactInfo
 {
     min-width: 40%;
+    display: block;
+    margin-left: 42%;
+    margin-right: 42%;
 }
 .contactInfoBx
 {
-    position: relative;
+    position:relative;
 }
 .contactInfoBx .Box
 {
     position:relative;
-    padding:20px 0px;
+    padding: 20px 0px;
     display: flex;
 }
 .contactInfoBx .box .icon
@@ -243,7 +246,7 @@ header.sticky ul li a
 }
 .contactInfoBx .box .text 
 {
-    padding-left: 20px;
+    padding-left: 0px;
     font-weight: 300;
 }
 .contactInfoBx .box .text h3
@@ -315,6 +318,7 @@ header.sticky ul li a
     .banner
     {
         padding: 150px 50px 100px;
+        background-position: left;
     }
     .banner h2 
     {
@@ -322,7 +326,7 @@ header.sticky ul li a
     }
     .banner h3 
     {
-        font-size: 1em;
+        font-size: 0.9em;
     }
     .btn
     {
@@ -346,7 +350,10 @@ header.sticky ul li a
     {
         margin-bottom: 20px;
     }
-    .work .content .workBx
+    .Projects {
+        padding-top: 350px;
+    }
+    .Projects .content .workBx
     {
         width: 100%;
         padding: 10px;
